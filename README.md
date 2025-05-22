@@ -2,10 +2,16 @@
 
 This repository provides an exploratory data analysis and interactive Tableau dashboard for a UK bank's customer demographic data. The goal is to uncover customer distribution patterns across gender, age, job classification, region, and account balances to support targeted financial strategies and segmentation.
 
+## 🎯 Objective
+
+This project enables data-driven segmentation and strategy formulation for banks through clear demographic and financial profiling of their customer base.
+
 ## 📁 Repository Contents
 
 - `UK-Bank-Customers.csv`: The main dataset containing personal and financial information of 4,000+ customers from a UK-based bank.
 - `UK_Bank_Demographics.twbx`: Tableau workbook that visualizes customer demographics and balance distributions.
+  - An **interactive dashboard** with dynamic filters.
+  - A **storyline** guiding users through key demographic and financial insights.
 
 ## 📄 Dataset Description
 
@@ -23,32 +29,55 @@ This dataset includes 4,014 customer records with the following fields:
 | `Date Joined`         | Date the customer joined the bank                |
 | `Balance`             | Current account balance (GBP)                    |
 
-## 📊 Key Insights from the Dashboard
+### 📌 Dashboard Features
+The **interactive dashboard** allows stakeholders to:
+- Filter by **Region**, **Gender**, and **Job Classification**
+- Compare **average balances** by age group
+- Visualize customer distribution across regions
+- Identify high-value customer segments
 
-The **UK Bank Demographics Dashboard** provides the following insights:
+### 📖 Storyline Highlights
+The **storyline** walks the viewer through five key questions:
+1. **What is the demographic composition of our customers?**
+2. **Which regions have the highest account balances?**
+3. **How does job type affect financial behavior?**
+4. **Are older customers wealthier on average?**
+5. **What was the customer acquisition trend over time?**
+
+This guided narrative simplifies insight discovery and provides an executive summary of findings.
+
+## 📊 Key Insights
 
 ### 🔹 Gender & Age Distribution
-- The **customer base is evenly split** across male and female clients.
-- **Young professionals (25–40 years)** represent the majority of account holders.
+- The dataset is almost evenly split between **male** and **female** clients.
+- **Young professionals (25–40 years)** form the largest customer segment.
 
 ### 🔹 Regional Segmentation
-- **England** has the highest concentration of customers, followed by **Scotland** and **Wales**.
-- **Northern Ireland** has relatively fewer customers but shows high average balances in certain age groups.
+- **England** has the highest customer density.
+- **Northern Ireland** has fewer customers but shows **notably high average balances** in select groups.
 
-### 🔹 Job Classification Impact
-- **White Collar** professionals dominate the dataset and generally maintain **higher average balances**.
-- **Blue Collar** customers show more variance in balance, with fewer high-value accounts.
+### 🔹 Job Classification
+- **White Collar** professionals dominate and maintain higher average balances.
+- **Blue Collar** customers show greater balance variance and fewer high-net accounts.
 
-### 🔹 Account Balance Patterns
-- High balances are more common among customers aged **40 and above**.
-- Some younger clients (under 30) hold significant balances, likely due to early investments or inheritance.
+### 🔹 Balance Distribution by Age
+- Customers **aged 40+** hold higher average balances.
+- Some **under-30 customers** also maintain high balances, likely due to inheritance or early investments.
 
 ### 🔹 Customer Tenure
-- Most customers joined the bank between **2015 and 2016**, indicating a strong acquisition drive during that period.
-- Retention appears steady, with balanced distribution across join dates.
+- Most accounts were opened during **2015–2016**, reflecting a strong acquisition phase.
+- A balanced tenure distribution suggests good customer **retention**.
 
 ## 🚀 How to Use
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/uk-bank-demographics-dashboard.git
+   git clone https://github.com/Anaghar27/UK-Bank-Customer-Demographics-Dashboard-using-Tableau.git
+
+2. Open the Tableau workbook:
+- File: UK_Bank_Demographics.twbx
+- Software: Tableau Desktop or Tableau Public
+
+3. Explore:
+- Dashboard tabs for exploratory analysis
+- Storyline tab for guided, executive-friendly insights
